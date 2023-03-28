@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
 <style>
      body
         {
@@ -18,6 +21,7 @@
             flex-direction: column;
             justify-content: center;
             justify-items: center;
+            overflow: hidden;
         }
         .cabecalho
         {
@@ -96,7 +100,7 @@
         {
            width: 40px;
            height: 40px; 
-           margin-top: 2%;
+            margin-top: 2%;
            padding-left: 2%;
         }
         .compras
@@ -105,6 +109,29 @@
            height: 40px; 
            margin-top: 2%;
            padding-left: 2%;
+        }
+        .botao
+        {
+            height: 80px;
+            width: 100%;
+            display:flex;
+            flex-direction: row;
+            margin-top: 20px;
+            justify-content: space-around;
+
+        }
+        .card
+        {
+            background-color: #87C6D4;
+            width: 150px;
+            height: 30px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+            justify-items: center;
+            justify-content: center;
+            justify-items: center;
+            font-family: 'Caveat Brush', cursiva;
         }
 
 
@@ -127,8 +154,14 @@
           <img src="login.png" class="login">
           <div class="bemvindos">
             <div class="texto3">Bem vindos!</div>
-        </div>
 
+          </div>
+    </div>
+    <div class="botao">
+        <div class="card">Pagina Inicial</div>
+        <div class="card">Loja</div>
+        <div class="card">Acessórios</div>
+        <div class="card">Sobre</div>
     </div>
 </body>
 </html>
