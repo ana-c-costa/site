@@ -9,9 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
 <style>
      body
         {
@@ -34,7 +31,8 @@
         }
         .springshop
         {
-            width: 25%;
+
+            width: 30%;
             height: 100px;
             display: flex;
             flex-direction: column;
@@ -43,24 +41,8 @@
         .texto2
         {
             font-family: 'Bungee Shade', cursive;
-            font-size: 40px;
+            font-size: 50px;
             margin: 4%;
-        }
-        .bemvindos
-        {
-            width: 24%;
-            height: 100px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-        }
-        .texto3
-        {
-            width: 350px; /*largura*/
-            height: 50px; /*altura*/
-            font-size: 20px; /*tamanho da letra*/
-            font-family: 'Bungee Shade', cursive;
-            margin-left: 40%;
         }
         .pesquisa
         {
@@ -89,51 +71,31 @@
         {
             outline: none;
         }
+        .icones
+        {
+            width: 40%;
+            height: 100px;
+        }
         .favoritos
         {
            width: 40px;
            height: 40px; 
-           margin-top: 2%;
-           padding-left: 2%;
+           margin-top: 4%;
         }
         .login
         {
            width: 40px;
            height: 40px; 
             margin-top: 2%;
-           padding-left: 2%;
+           padding-left: 9%;
         }
         .compras
         {
            width: 40px;
            height: 40px; 
            margin-top: 2%;
-           padding-left: 2%;
+           padding-left: 9%;
         }
-        .botao
-        {
-            height: 80px;
-            width: 100%;
-            display:flex;
-            flex-direction: row;
-            margin-top: 20px;
-            justify-content: space-around;
-
-        }
-        .card
-        {
-            background-color: #87C6D4;
-            width: 150px;
-            height: 30px;
-            font-size: 20px;
-            display: flex;
-            justify-content: space-around;
-            justify-items: center;
-            justify-content: center;
-            justify-items: center;
-            font-family: 'Caveat Brush', cursiva;
-        }
-
 
 </style>
 
@@ -141,7 +103,7 @@
 <body>
     <div class="cabecalho">
         <div class="springshop">
-            <div class="texto2">SPING SHOP</div>
+            <div class="texto2">SPRING SHOP</div>
         </div>
         
         <div class="pesquisa">
@@ -149,19 +111,12 @@
             <input type="text" class="caixa">
             x
      </div>
+        <div class="icones">
           <img src="favoritos.png" class="favoritos">
           <img src="compras.png" class="compras">
           <img src="login.png" class="login">
-          <div class="bemvindos">
-            <div class="texto3">Bem vindos!</div>
-
-          </div>
+        </div>
     </div>
-    <div class="botao">
-        <div class="card">Pagina Inicial</div>
-        <div class="card">Loja</div>
-        <div class="card">Acessórios</div>
-        <div class="card">Sobre</div>
-    </div>
+ 
 </body>
 </html>
