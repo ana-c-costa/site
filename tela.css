@@ -1,6 +1,6 @@
 body
         {
-            background-color: #D0E3F8;
+            background-color: #FFE8C7;
             margin: 0%;
             display: flex;
             flex-direction: column;
@@ -10,7 +10,7 @@ body
         }
         .cabecalho
         {
-            background-color: #87C6D4;
+            background-image: linear-gradient(#FF3131, #FF914D);
             width: 100%;
             height: 100px;
             display: flex;
@@ -27,7 +27,7 @@ body
         }
         .texto2
         {
-            font-family: 'Bungee Shade', cursive;
+            font-family: 'Gabriela', serif;
             font-size: 50px;
             margin: 4%;
         }
@@ -45,7 +45,7 @@ body
             padding-left: 10px;
             font-size: 20px;
             padding-right: 10px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Gabriela', serif;
         }
         .caixa
         {
@@ -119,7 +119,7 @@ body
             width: 150px;
             height: 40px;
             font-size: 30px;
-            font-family: 'Caveat Brush', cursiva;
+            font-family: 'Gabriela', serif;
             margin-top: 70px;
         }
         .BT1

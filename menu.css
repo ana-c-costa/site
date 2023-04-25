@@ -21,7 +21,7 @@
     justify-content: flex-end;
     align-items: center;
     color: #095364;
-    font-family: 'Caveat Brush', cursiva;
+    font-family: 'Gabriela', serif;
     font-size: 25px;
 }
 .toggle::before
@@ -74,10 +74,10 @@
 }
 ul
 {
-position: relative;
-list-style: none;
-display: flex;
-flex-direction: column; 
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
 }
 ul li
 {
@@ -106,7 +106,7 @@ ul li a
     background: #fff;
     color: #095364;
     transition: 0.5s;
-    font-family: 'Caveat Brush', cursiva;;
+    font-family: 'Gabriela', serif;
 }
 ul li a:hover
 {
